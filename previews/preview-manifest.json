@@ -1,0 +1,8 @@
+{
+  "source_atlas": "assets/spritesheet.png",
+  "all_states_frames": 40,
+  "all_states_ms": 4000,
+  "look_frames": 16,
+  "jump_transition_frames": 17,
+  "only_generated_pixels": true
+}

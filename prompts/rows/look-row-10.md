@@ -1,4 +1,4 @@
-Create one horizontal look-direction strip for ChatGPT pet `roxy`, atlas row 10.
+Create one horizontal look-direction strip for ChatGPT pet `roxy-pixel-prone`, atlas row 10.
 
 Use the attached canonical base, completed standard contact sheet, layout guide, and approved four-cardinal strip for identity, scale, registration, spacing, direction semantics, and cross-row continuity. Read `docs/look-mechanics.md` and follow its pet-specific movement and eye/prop mechanics. The approved cardinal strip and completed coherent row 9 are authoritative. Use the cardinals for direction meaning and row 9 for cross-row identity, scale, registration, and continuity.
 
@@ -27,10 +27,14 @@ Use the same body height, head size, baseline, and planted-body position across 
 
 Keep the feet, base, or lower torso planted at the same coordinates across all eight frames. Express direction through the eyes, face, head, upper body, and physically appropriate prop movement, not by moving, rotating, or rescaling the entire sprite.
 
-Place one centered pose in each invisible equal-width slot on flat pure magenta #FF00FF. Change only the natural parts needed to express gaze: eyes, eyelids, head, face, neck, upper body, appendages, and constrained prop follow-through. Keep identity, silhouette, materials, palette, markings, and props consistent.
+Place one centered pose in each invisible equal-width slot on flat pure user-selected #FF00FF. Change only the natural parts needed to express gaze: eyes, eyelids, head, face, neck, upper body, appendages, and constrained prop follow-through. Keep identity, silhouette, materials, palette, markings, and props consistent.
 
 ROW-BOUNDARY LOCK: 180 must continue directly from row 9's 157.5, matching its body size, baseline, planted anchor, expression, and construction. 337.5 must be one even 22.5-degree step before 000: nearly up-facing while remaining on the overall left-hand arc. Do not distort pupils, nose, or body geometry merely to exaggerate the subtle horizontal component.
 
 PRE-RETURN CHECK: reject this result if it does not contain eight separated pose groups in the required order; neighboring poses overlap; foreground is cropped at the outer canvas edge; any frame changes sprite scale, body or head size, baseline, or planted-body position; the row visibly reverses into the wrong half of the loop; or 180 does not continue from 157.5 or 337.5 does not flow evenly into 000. Minor intermediate pupil or nose deviations are not rejection reasons. Exact cell cropping, resizing, and recentering happen deterministically after generation.
 
 Do not rotate, skew, or tilt the whole sprite to fake gaze. Do not add replacement/googly eyes, labels, degree text, arrows, clocks, grids, shadows, glows, scenery, detached effects, or chroma-key colors inside the pet.
+
+APPROVED POSE LOCK: assets/reference.png shows the chosen pixel belly-down mascot. Keep the same large round face, tiny short body/legs, blue braids, hat, coat and crisp pixel style. Use assets/reference.png for the approved prone anatomy and the current assets/spritesheet.png for animation continuity. All poses must be complete, well separated and fully inside canvas margins. For wide strips use small complete sprites with generous empty magenta space between them.
+
+Keep the prone torso, elbows and curled boots planted. Only head/neck/hat/face turn and pitch; the body must remain lying down. Keep BOTH blue eyes/face identifiable even when looking sideways or down. Do not rotate or flip the whole sprite.

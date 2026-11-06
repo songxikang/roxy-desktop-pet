@@ -2,7 +2,9 @@
 
 [中文](README.md)
 
-An unofficial chibi Roxy Migurdia fan pet from *Mushoku Tensei*, with **9 animation states, 16 look directions, and 73 frames**. Blue twin braids, a witch hat, and a cream mage outfit keep her recognizable at desktop size.
+An unofficial pixel-art Roxy Migurdia fan pet from *Mushoku Tensei*, with **9 animation states, 16 look directions, and 73 frames**. Her main pose is **lying on her belly with her chin on her hands**. Blue twin braids, a witch hat, and a cream mage outfit keep her recognizable at desktop size.
+
+This visual redesign keeps her relaxed and belly-down throughout the animations instead of returning to an upright standing pose. The sprite-sheet format remains v2. The previous visual design is available in the [v1.0.0 Release](https://github.com/songxikang/roxy-desktop-pet/releases/tag/v1.0.0).
 
 ![Animation preview](previews/all-states.gif)
 
@@ -32,7 +34,18 @@ For manual installation, preserve `pet.json` and `assets/spritesheet.webp` under
 
 ## Included states
 
-Idle breathing/blinking, running right, running left, waving, jumping, disappointment, waiting for input, focused teacher-style explanation, and reviewing a result with a nod, smile, and thumbs-up. The final two rows contain a clockwise 16-direction look set, starting at up.
+| State | Animation |
+| --- | --- |
+| Idle `idle` | Chin on hands, gentle breathing and blinking, with tiny boots swaying behind her |
+| Move right `running-right` | Low belly-down glide toward the right, alternating short hands and boot kicks |
+| Move left `running-left` | Low belly-down glide toward the left, alternating short hands and boot kicks |
+| Wave `waving` | One hand supports her cheek while the other waves beside her face, then returns |
+| Jump `jumping` | Her whole prone body gently lifts and settles back into the chin-on-hands pose |
+| Disappointment `failed` | She lowers her head, closes her eyes, and slumps slightly before recovering |
+| Wait `waiting` | She lifts her face expectantly and opens one palm to ask for a response |
+| Work `running` | One hand supports her cheek while the other points toward her palm or forward as she explains |
+| Review / ready `review` | She inspects, lifts her eyes, nods, smiles, and gives a small thumbs-up beside her face |
+| 16 look directions | Head and gaze turn clockwise from up while her body and curled boots remain prone |
 
 The host application decides when to play an animation. This repository does not add click, double-click, pointer-following, or task-notification behavior, and does not guarantee that every interface uses every state. Scheduled sleeping and automatic task-specific outfits are outside this package.
 

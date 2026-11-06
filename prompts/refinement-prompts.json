@@ -1,0 +1,11 @@
+{
+  "referenced_images": [
+    "assets/reference.png",
+    "assets/spritesheet.png",
+    "previews/idle.gif",
+    "prompts/layout-guides/<state>.png"
+  ],
+  "identity": "Preserve blue twin braids, blue eyes, dark brown floppy witch hat with cream band, cream and brown mage coat, slim chibi proportions. Existing downloaded sheet is authoritative.",
+  "running_refinement": "Six grounded full-body poses in one horizontal strip on pure #FF00FF. Feet planted, one palm up, other index raised, point toward palm, explain forward, blink, lift index and reset. Focused teacher manner. No chin-resting, locomotion, new props, effects or labels. Generous space between complete poses.",
+  "review_refinement": "Six grounded full-body poses in one horizontal strip on pure #FF00FF. Slightly lower gaze to inspect, mild head tilt, raise eyes and smile, give a small attached thumbs-up at chest, contented closed-eye smile, lower hand and reset. No chin-resting, wave, open-palms request, props, effects or labels. Stable scale and feet."
+}

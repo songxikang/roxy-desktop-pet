@@ -101,3 +101,7 @@ finally {
         Remove-Item -LiteralPath $fixtureDir -Recurse -Force
     }
 }
+
+# Expected rejection cases leave the last child process exit code at 1.
+# Report success only after every assertion and fixture cleanup completed.
+exit 0
